@@ -21,6 +21,9 @@ const Home = () => {
     <div className='container'>
       <h1>Home Page {count}</h1>
       <button onClick={handleGetSingleUser} className='btn btn-primary mb-4'>Get Single User</button>
+      <Link to='/admin/nurses'>
+        <button className='btn btn-primary mb-4'>Go to Nurse Details</button>
+      </Link>
       {/* <Link to='/profile'>
         <PrimaryBtn title='Profile' />
       </Link> */}
@@ -29,3 +32,4 @@ const Home = () => {
 }
 
 export default Home
+
